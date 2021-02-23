@@ -1,9 +1,12 @@
-import React from 'react';
+import './styles/global.css';
+import ExperienceBar from './components/ExperienceBar';
 
 const App = () => {
   return (
-    <h1>Hello World</h1>
+    <div className="container">
+      <ExperienceBar />
+    </div>
   );
-}
+};
 
 export default App;
